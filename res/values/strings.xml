@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">RezervirajMe.hr</string>
+    <string name="app_name">RezervirajMe</string>
+    <string name="popiscentara">Popis centara</string>
+    <string name="popisrezervacija">Popis rezervacija</string>
+    <string name="rezerviraj">RM</string>
+    <string name="ostvarirezevaciju">Ostvarite svoju rezervaciju</string>
+    <string name="mojerezervacije">MojeRezervacije</string>
+
+    
+</resources>

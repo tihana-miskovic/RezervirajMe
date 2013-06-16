@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/novilogin"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:paddingTop="90dp"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <TextView
+            android:textColor="@android:color/black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            
+            android:text="Ubrzali smo te pojednostavili proces rezervacije sportskih i rekreacijskih terena
+Ovaj portal sastoji se od dva međusobno povezana sustava.
+
+Prvi je u obliku kalendara sa pregledom svih rezervacija koji se nalazi u posjedu svakog centra koji je pozicioniran na našoj stranici. Tu centar vodi te upisuje svoje rezervacije. Drugi sustav, direktno povezan s prvim se nalazi upravo na ovoj stranici koji omogućuje krajnjim korisnicima, Vama uvid u slobodne terene, termine, cijene i cjelokupne ponude centara.
+
+Potrebna je:
+1) Registracija za nove korisnike (potreban je broj Vašeg mobilnog telefona, za slanje aktivacijskog koda registracije)
+2) Prijava (s odabranim korisničkim imenom i lozinkom)
+3) Odabir (sporta, centra, termina i/ili terena) po željama korisnika
+4) Rezervacija željenog termina jednim klikom
+Nema naknadnih pozivanja, provjeravanja te neuspješnih dogovora preko telefona. Vaša rezervacija je zaprimljena istog trenutka kada je Vi ostvarite preko našeg kalendara.
+
+Pokušajte i uvjerite se u jednostavnost i brzinu rezerviranja preko našeg portala!
+
+Sportskim centrima nudimo besplatan način da se organiziraju preko našeg interaktivnog sustava, kalendara koji je uvijek osmišljen te realiziran prema njihovim zahtjevima i potrebama. Naravno, to može imati samo pozitivne posljedice povećanja prodaje odnosno privlačenja novih potencijalnih korisnika. Sve što je potrebno je računalo odnosno pametan telefon (smartphone) s pristupom internetu s kojeg možete voditi te u potpunosti obavljati poslove i rezervacije vezane za vaš centar. Ispisivanje tjednih kalendara, nepregledno zapisivanje u male kućice termina su prošlost. Javite nam se te pokušajte s nama! Dolazimo do Vas te vam demonstriramo našu funkcionalnost. Ništa Vas ne košta, a odustati možete u svakom trenutku!
+
+Vaš RezervirajME tim" />
+    </ScrollView>
+
+</LinearLayout>

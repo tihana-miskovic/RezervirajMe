@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/mainblue"
+    android:baselineAligned="false"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.00" >
+
+        <Button
+            android:id="@+id/bList"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="65dp"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/list"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/bAboutUs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/bList"
+            android:layout_alignBottom="@+id/bList"
+            android:layout_alignLeft="@+id/bList"
+            android:layout_marginLeft="33dp"
+            android:background="@drawable/info"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/bMyAcc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/bList"
+            android:layout_alignBottom="@+id/bList"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="35dp"
+            android:layout_toLeftOf="@+id/bList"
+            android:background="@drawable/person_white"
+            android:textSize="20dp" />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="55dp"
+        android:layout_weight="0.00"
+        android:text="Dobrodošli"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/bSport"
+        android:layout_width="238dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/novigumbreljef"
+        android:text="Sport"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/tvSport"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="0.00"
+        android:text="TextView"
+        android:textSize="15dp" 
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/bDate"
+        android:layout_width="238dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/gorereljef"
+        android:text="Datum"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/bTime"
+        android:layout_width="238dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/doljerelj"
+        android:text="Vrijeme"
+        android:textSize="15dp" />
+
+    <TableRow
+        android:id="@+id/trDateTime"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="0.00" >
+
+        <TextView
+            android:id="@+id/tvDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="100dp"
+            android:layout_weight="0.00"
+            android:textSize="15dp" 
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/tvTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="0.00"
+            android:textSize="15dp"
+            android:visibility="invisible" 
+            android:textStyle="bold"/>
+    </TableRow>
+
+    <TextView
+        android:id="@+id/tvLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/tvTemp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/bSearch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10px"
+        android:background="@drawable/trazidva"
+        android:text="Pretraži"
+        android:textSize="15dp" />
+
+</LinearLayout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/novilogin"
+    android:paddingTop="80dp" 
+    android:paddingLeft="27dp"
+    android:paddingRight="27dp">
+
+    <EditText
+        android:id="@+id/edUsername"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Type username">
+    </EditText>
+
+    <EditText
+        android:id="@+id/edPassword"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Type password"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/bLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/bluebuttonlog"
+        android:gravity="center"
+        />
+       <Button
+        android:id="@+id/bReg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/bluebuttonregister"
+        android:gravity="center"
+        android:layout_marginTop="80dp"
+        
+        />
+
+</LinearLayout>

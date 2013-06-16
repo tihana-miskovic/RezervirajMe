@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <RadioGroup
+        android:id="@+id/rgAnswers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <RadioButton
+            android:id="@+id/rbMN"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mali nogomet"/>
+
+        <RadioButton
+            android:id="@+id/rbPB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Paintball" />
+
+        <RadioButton
+            android:id="@+id/rbT"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tenis" />
+
+        <RadioButton
+            android:id="@+id/rbST"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Stolni tenis" />
+
+        <RadioButton
+            android:id="@+id/rbP"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Plivanje" />
+        
+        <RadioButton
+            android:id="@+id/rbAll"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Svi sportovi"
+            />
+    </RadioGroup>
+
+        <Button
+            android:id="@+id/bSave"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="Save" />
+
+</LinearLayout>

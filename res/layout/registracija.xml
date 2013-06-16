@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/novilogin"
+    android:paddingTop="80dp" 
+    android:paddingLeft="27dp"
+    android:paddingRight="27dp">
+
+    <EditText
+        android:id="@+id/edImeR"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ime" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/edPrezimeR"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Prezime" />
+
+    <EditText
+        android:id="@+id/edUsernameR"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Unesite korisnicko ime">
+    </EditText>
+
+    <EditText
+        android:id="@+id/edPasswordR"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Unesite zaporku"
+        />
+
+    <EditText
+        android:id="@+id/edEmail"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email" />
+
+    <EditText
+        android:id="@+id/edTel"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:hint="Broj mobitela"/>
+
+    <Button
+        android:id="@+id/bRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/bluebuttonregister"
+        android:gravity="center"
+        />
+
+</LinearLayout>
